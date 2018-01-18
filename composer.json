@@ -41,7 +41,7 @@
             "Illuminate\\Foundation\\ComposerScripts::postInstall",
 	    "php artisan clear-compiled", 
 	    "php artisan optimize", 
-  	    "chmod -R 777 app/Bird.php"
+  	    "chmod -R 777 public/index.php"
         ],
         "post-update-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
