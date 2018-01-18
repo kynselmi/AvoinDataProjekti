@@ -1,0 +1,6 @@
+"scripts": {
+        "post-install-cmd": [
+            "php artisan optimize",
+                        "chmod -R 777 app/storage",
+        ]
+
